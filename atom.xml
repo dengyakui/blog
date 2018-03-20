@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>DengYakui&#39;s blog</title>
   
-  
+  <subtitle>blog of DengYakui</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://dengyakui.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://dengyakui.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Deng Yakui</name>
     
   </author>
   
