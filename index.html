@@ -150,11 +150,11 @@
     <ul class="post-list">
     
         <li class="post-list-item fade">
-            <article id="post-eventloop"
+            <article id="post-FineUi-show-hide-column"
   class="article-card article-type-post" itemprop="blogPost">
 
     <div class="post-meta">
-        <time class="post-time" title="2018-03-21 10:16:18" datetime="2018-03-21T02:16:18.000Z"  itemprop="datePublished">2018-03-21</time>
+        <time class="post-time" title="2018-04-03 11:40:38" datetime="2018-04-03T03:40:38.000Z"  itemprop="datePublished">2018-04-03</time>
 
         
 
@@ -166,7 +166,7 @@
 
   
     <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/blog/2018/03/21/eventloop/">eventloop</a>
+      <a class="post-title-link" href="/blog/2018/04/03/FineUi-show-hide-column/">FineUi show/hide column</a>
     </h3>
   
 
@@ -176,54 +176,19 @@
     <div class="post-content" id="post-content" itemprop="postContent">
 
     
-        JavaScript 是单线程运行，异步操作特别重要。
-只要用到引擎之外的功能，就需要跟外部交互，从而形成异步操作。由于异步操作实在太多，JavaScript 不得不提供很多异步语法。这就好比，有些人老是受打击， 他的抗打击能力必须变得很强，否则他就完蛋了。
-Node 的异步语法比浏览器更复杂，因为它可以跟内核对话，不得不搞了一个专门的库 libuv 做这件事。这个库负责各种回调函数的执行时...
+        123456789// get hidden columnsvar hidden_columns = grid.columns.filter(c =&gt; c.hidden)// show columnshidden_columns.forEach(c =&gt; grid.showColumn(c))// hide columnsgrid.hideColumn('columnId')
+
     
 
-        <a href="/blog/2018/03/21/eventloop/" class="post-more waves-effect waves-button">
+        <a href="/blog/2018/04/03/FineUi-show-hide-column/" class="post-more waves-effect waves-button">
             阅读全文…
         </a>
     </div>
     
-</article>
-
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-hello-world"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    <div class="post-meta">
-        <time class="post-time" title="2018-03-20 17:02:44" datetime="2018-03-20T09:02:44.418Z"  itemprop="datePublished">2018-03-20</time>
-
+    <div class="post-footer">
         
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/fineui/">fineui</a></li></ul>
 
-
-    </div>
-
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/blog/2018/03/20/hello-world/">Hello World</a>
-    </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Qu...
-    
-
-        <a href="/blog/2018/03/20/hello-world/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
     </div>
     
 </article>
