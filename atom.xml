@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://dengyakui.github.io/blog/"/>
-  <updated>2018-04-03T04:25:40.267Z</updated>
+  <updated>2018-04-08T02:43:28.908Z</updated>
   <id>https://dengyakui.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>FineUi show/hide column</title>
+    <title>show/hide column</title>
     <link href="https://dengyakui.github.io/blog/2018/04/03/FineUi-show-hide-column/"/>
     <id>https://dengyakui.github.io/blog/2018/04/03/FineUi-show-hide-column/</id>
     <published>2018-04-03T03:40:38.000Z</published>
-    <updated>2018-04-03T04:25:40.267Z</updated>
+    <updated>2018-04-08T02:43:28.908Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// get hidden columns</span></span><br><span class="line"><span class="keyword">var</span> hidden_columns = grid.columns.filter(<span class="function"><span class="params">c</span> =&gt;</span> c.hidden)</span><br><span class="line"></span><br><span class="line"><span class="comment">// show columns</span></span><br><span class="line">hidden_columns.forEach(<span class="function"><span class="params">c</span> =&gt;</span> grid.showColumn(c))</span><br><span class="line"></span><br><span class="line"><span class="comment">// hide columns</span></span><br><span class="line">grid.hideColumn(<span class="string">'columnId'</span>)</span><br></pre></td></tr></table></figure>]]></content>
     
