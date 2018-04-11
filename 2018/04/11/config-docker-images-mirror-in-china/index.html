@@ -20,18 +20,18 @@
     
     
     <meta name="keywords" content="docker">
-    <meta name="description" content="123&amp;#123;  &quot;registry-mirrors&quot;: [&quot;https://registry.docker-cn.com&quot;]&amp;#125;">
+    <meta name="description" content="if docker was installed on ContOs, to config the mirror url,we should create a file within  /etc/docker1vi /etc/docker/daemon.json put follow contents info the file123&amp;#123;  &quot;registry-mirrors&quot;: [&quot;htt">
 <meta name="keywords" content="docker">
 <meta property="og:type" content="article">
 <meta property="og:title" content="config docker images mirror in china">
 <meta property="og:url" content="https://dengyakui.github.io/blog/2018/04/11/config-docker-images-mirror-in-china/index.html">
 <meta property="og:site_name" content="DengYakui&#39;s blog">
-<meta property="og:description" content="123&amp;#123;  &quot;registry-mirrors&quot;: [&quot;https://registry.docker-cn.com&quot;]&amp;#125;">
+<meta property="og:description" content="if docker was installed on ContOs, to config the mirror url,we should create a file within  /etc/docker1vi /etc/docker/daemon.json put follow contents info the file123&amp;#123;  &quot;registry-mirrors&quot;: [&quot;htt">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-04-11T02:35:17.864Z">
+<meta property="og:updated_time" content="2018-04-11T02:42:13.949Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="config docker images mirror in china">
-<meta name="twitter:description" content="123&amp;#123;  &quot;registry-mirrors&quot;: [&quot;https://registry.docker-cn.com&quot;]&amp;#125;">
+<meta name="twitter:description" content="if docker was installed on ContOs, to config the mirror url,we should create a file within  /etc/docker1vi /etc/docker/daemon.json put follow contents info the file123&amp;#123;  &quot;registry-mirrors&quot;: [&quot;htt">
     
         <link rel="alternate" type="application/atom+xml" title="DengYakui&#39;s blog" href="/blog/atom.xml">
     
@@ -174,7 +174,9 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"registry-mirrors"</span>: [<span class="string">"https://registry.docker-cn.com"</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+            <p>if docker was installed on ContOs, to config the mirror url,<br>we should create a file within  /etc/docker<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/docker/daemon.json</span><br></pre></td></tr></table></figure></p>
+<p>put follow contents info the file<br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"registry-mirrors"</span>: [<span class="string">"https://registry.docker-cn.com"</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+
         </div>
 
         <blockquote class="post-copyright">
@@ -182,7 +184,7 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2018-04-11T02:35:17.864Z" itemprop="dateUpdated">2018-04-11 10:35:17</time>
+    最后更新时间：<time datetime="2018-04-11T02:42:13.949Z" itemprop="dateUpdated">2018-04-11 10:42:13</time>
 </span><br>
 
 

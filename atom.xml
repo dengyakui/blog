@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://dengyakui.github.io/blog/"/>
-  <updated>2018-04-11T02:35:17.864Z</updated>
+  <updated>2018-04-11T02:42:13.949Z</updated>
   <id>https://dengyakui.github.io/blog/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://dengyakui.github.io/blog/2018/04/11/config-docker-images-mirror-in-china/"/>
     <id>https://dengyakui.github.io/blog/2018/04/11/config-docker-images-mirror-in-china/</id>
     <published>2018-04-11T02:34:48.000Z</published>
-    <updated>2018-04-11T02:35:17.864Z</updated>
+    <updated>2018-04-11T02:42:13.949Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"registry-mirrors"</span>: [<span class="string">"https://registry.docker-cn.com"</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>if docker was installed on ContOs, to config the mirror url,<br>we should create a file within  /etc/docker<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/docker/daemon.json</span><br></pre></td></tr></table></figure></p><p>put follow contents info the file<br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"registry-mirrors"</span>: [<span class="string">"https://registry.docker-cn.com"</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;figure class=&quot;highlight json&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=
+        &lt;p&gt;if docker was installed on ContOs, to config the mirror url,&lt;br&gt;we should create a file within  /etc/docker&lt;br&gt;&lt;figure class=&quot;highlight b
       
     
     </summary>
