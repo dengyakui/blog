@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dengyakui.github.io/blog/2018/04/25/anaconda-install/</loc>
+    
+    <lastmod>2018-04-26T10:42:54.294Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dengyakui.github.io/blog/2018/04/11/config-docker-images-mirror-in-china/</loc>
     
     <lastmod>2018-04-11T02:42:13.949Z</lastmod>
